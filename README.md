@@ -6,6 +6,7 @@ yarn start
 
 cd backend
 yarn
+npx babel-node src/server.js
 
 This app uses:
 React client
