@@ -1,5 +1,8 @@
 # blog-backend
 
+Getting started
+
+```
 cd backend
 npm init -y
 npm install --save express
@@ -8,10 +11,11 @@ cd src
 touch server.js
 npm install --save-dev @babel/core @babel/node @babel/preset-env
 cd backend
-
 touch .babelrc
-
 npm install --save body-parser
+```
+
+.babelrc
 
 ```
 {
@@ -25,7 +29,7 @@ run the express server with:
 npx babel-node src/server.js
 ```
 
-## To automatically update server
+To automatically restart server
 
 ```
 npm install --save-dev nodemon
@@ -72,7 +76,7 @@ to open the shell:
 mongo
 ```
 
-create a collection:
+open (or create) a collection:
 
 ```
 use jyolilli-blog
