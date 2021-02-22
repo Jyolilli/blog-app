@@ -1,11 +1,11 @@
 # blog-app
 
 cd frontend
-yarn
-yarn start
+npm install
+npm start
 
 cd backend
-yarn
+npm install
 npx babel-node src/server.js
 
 This app uses:
@@ -13,3 +13,4 @@ React client
 
 Backend server created with
 Node.js and Express
+MongoDB NoSQL database
